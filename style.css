@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-image: url(./images/content-pixie-m-gqDRzbJLQ-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}  
+
+#content {
+    height: 100vh;
+}
+
+#header {
+    background-color: rgba(0,0,0, 0.8);
+    color: white;
+    height: 15em;
+    display: grid;
+    justify-content: center;
+}
+
+#label {
+    font-size: 4em;
+    display: flex;
+    font-family: myFont;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tabs button {
+    border: none;
+    padding: 15px;
+    background: transparent;
+    color: white;
+    font-size: larger;
+}
+
+.tabs button:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+.main-photo {
+    height: 250px;
+    width: 250px;
+    background: url(./images/patryk-gauza-vs0tzSHVcac-unsplash.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+#main {
+    height: 25em;
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main p {
+    font-size: larger;
+}
+
+.footer {
+    margin-top: 30px;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;    background-color: rgba(0,0,0, 0.8);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+}
